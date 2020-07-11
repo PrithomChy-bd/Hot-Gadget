@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar Item Start */
+.navbar-brand img{
+    height: 70px;
+}
+.nav-item a{
+    font-weight: bold;
+}
+/* Navbar Item End */
+
+/* Carousel Item Start */
+.carousel-item{
+    padding: 20px 40px;
+}
+.carousel .carousel-indicators li{
+    background-color: #23272B;
+}
+/* Carousel Item End */
+/* Card Item Start */
+.card-deck .card{
+    text-align: center;
+    border: none;
+    box-shadow: 0px 0px 20px lightgrey;
+}
+.card img{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.card .card-footer{
+    background-color: white;
+    border-top: none;
+}
+/* Card Item End */
+/* Categories Item Start */
+.Categories h3{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    border-bottom: 5px solid #23272B;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+.Categories img{
+    width: 90%;
+}
+.bag{
+    box-shadow: 0px 0px 10px lightgray;
+    padding: 35px;
+    border-radius: 50px 0px 50px 0;
+    margin-right: 20px;
+}
+.perfume{
+    margin-bottom: 20px;
+}
+.perfume , .shoe{
+    box-shadow: 0px 0px 10px lightgray;
+    padding: 35px;
+    border-radius: 50px 0px 50px 0;
+}
+.section-title{
+    display: block;
+    width: 178px;
+    margin: 0 auto;
+    border-bottom: 5px solid #23272B;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+/* Categories Item End */
+/* contact Item Start */
+#contact{
+    margin-bottom: 50px;
+}
+/* Contact Item End */
+
+
+
+
+
+/* Responsive Item Start */
+
+@media all and (max-width: 364px){
+    iframe{
+        width: 90%;
+        height: 200;
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+
+}
+@media all and (max-width: 500px) {
+    .first .bag {
+        padding: 20px;
+    }
+    .second .perfume {
+        padding: 20px;
+    }
+    .second .shoe {
+        padding: 20px;
+    }
+}
+@media all and (max-width: 300px) {
+    .first .bag {
+        padding: 10px;
+    }
+    .second .perfume {
+        padding: 10px;
+    }
+    .second .shoe {
+        padding: 10px;
+    }
+}
+@media all and (max-width: 250px){
+    .carousel-item h1{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+}
+
+/* Responsive Item End  */
